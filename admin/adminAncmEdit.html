@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="adminAncm.css">
+    <title>공지사항</title>
+</head>
+<body>
+    <header>
+        <i class="fa-solid fa-bars"></i>
+        관리자 홈
+    </header>
+
+    <nav>
+        <div class="logo"><h1>MEDIMATE</h1></div>
+        <ul>
+            <li class="nav-user"><i class="fa-solid fa-users"></i> 회원 관리</li>
+            <li class="nav-drugstore"><i class="fa-solid fa-house-medical"></i> 약국 관리</li>
+            <li class="nav-medicine"><i class="fa-solid fa-prescription-bottle-medical"></i> 약품 관리</li>
+            <li class="nav-announcement active"><i class="fa-solid fa-scroll"></i> 공지 사항</li>
+            <li class="nav-QnA"><i class="fa-solid fa-comments"></i> 문의 사항</li>
+        </ul>
+    </nav>
+
+    <main>
+        <article class="title">
+            <h2>공지사항 관리</h2>
+        </article>
+        <article class="content-header">
+            <div>
+                <div class="content-title">
+                    <span>제목 </span><input type="text" placeholder="제목을 입력하세요" value="버전 업데이트(1.0.1ver)">
+                </div>
+                <div class="content-writer">
+                    <span>작성자 </span><input type="text" placeholder="작성자를 입력하세요" value="이현준">
+                </div>
+                <div class="content-date">
+                    <span>작성날짜 </span>
+                    <span>2023-04-25</span>
+                </div>
+            </div>
+            <div>
+                <input type="file">
+                <button class="black-btn">수정</button>
+                <button class="red-btn">삭제</button>
+            </div>
+        </article>
+        <article class="content-text">
+            <textarea name="" placeholder="내용을 입력하세요">2023년 05월 31일부로 버전이 1.0.1ver으로 업데이트 되었음을 알려드립니다.
+
+업데이트 내용:  심야약국 DB 업데이트(서울시공공데이터)
+                캘린더 분류 색상 추가
+                2023년 6월 1일부 서비스 종료 예정</textarea>
+        </article>
+    </main>
+
+
+
+    <script src="https://kit.fontawesome.com/1bf31ed49f.js" crossorigin="anonymous"></script>
+    <script src="admin.js"></script>
+</body>
+</html>
